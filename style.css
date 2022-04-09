@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
+body {
+    background: rgb(2, 2, 39);
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 500;
+    font-size: 80px;
+    text-align: left;
+    margin: 0;
+}
+
+h3 {
+    font-family:'Share Tech Mono', monospace;
+    font-weight: 200;
+    font-size: 35px; 
+    text-align: center;
+}
+
+.banner-img {
+    background-image: url("img/hero.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    filter: blur(35px);
+}
+
+.banner-text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 5;
+   width: 45%;
+   padding: 40px 0;
+   text-align: center;
+   border-top-left-radius: 70px;
+   border-bottom-right-radius: 70px;
+}
+
+.btn-gradient-border {
+    color: rgb(var(--text-color));
+    border: 2px double transparent;
+    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 15px 32px;
+  }
+
+  .btn {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 16px;
+  }
+
+ /*
+  .text-glow {
+    text-shadow: 0 0 80px rgb(192 219 255 / 60%), 0 0 32px rgb(65 120 255 / 24%);
+  }
+*/
+
